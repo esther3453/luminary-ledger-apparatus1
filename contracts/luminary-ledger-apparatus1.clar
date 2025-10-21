@@ -1,4 +1,4 @@
-echo "# luminary-ledger-apparatus1" >> README.;; luminary-ledger-apparatus
+;; luminary-ledger-apparatus
 
 ;; Administrative authority principal identifier
 (define-constant administrative-authority tx-sender)
@@ -360,10 +360,3 @@ echo "# luminary-ledger-apparatus1" >> README.;; luminary-ledger-apparatus
   )
 )
 
-md
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://@github.com/esther3453/luminary-ledger-apparatus1.git
-git push -u origin main
